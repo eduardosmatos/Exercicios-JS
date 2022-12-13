@@ -1,0 +1,9 @@
+h1 {
+    font: bold 32px Arial;
+}
+
+button {
+    width: 200px;
+    height: 80px;
+    font-size: 15px;
+}
