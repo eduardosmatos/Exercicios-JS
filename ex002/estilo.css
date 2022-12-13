@@ -1,0 +1,10 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+.botão {
+    width: 180px;
+    height: 100px;
+    font-size: 18px;
+}
