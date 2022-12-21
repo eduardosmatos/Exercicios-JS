@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+}
+
+button {
+    width: 180px;
+    height: 80px;
+    font-size: 16px;
+}
+
+#res {
+    margin-top: 15px;
+}
