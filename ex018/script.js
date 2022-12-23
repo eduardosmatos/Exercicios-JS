@@ -13,11 +13,11 @@ function adivinhar() {
 function jogar() {
     palpite = Number(window.prompt('Qual é o seu palpite?'))
     if (palpite < num) {
-        res.innerHTML += `<p>Você falou ${palpite}. Meu número é <strong>MAIOR!</strong></p>`
+        res.innerHTML += `<p>Você falou ${palpite}. Meu número é <strong>MAIOR</strong>!</p>`
     } else if (palpite > num) {
-        res.innerHTML += `<p>Você falou ${palpite}. Meu número é <strong>MENOR!</strong></p>`
+        res.innerHTML += `<p>Você falou ${palpite}. Meu número é <strong>MENOR</strong>!</p>`
     } else if (palpite == num) {
-        res.innerHTML += `<p><strong>PARABÉNS!</strong> Você acertou! Eu tinha sorteado o valor ${computador}!</p>`
+        res.innerHTML += `<p><strong>PARABÉNS!</strong> Você acertou! Eu tinha sorteado o valor ${num}!</p>`
         document.getElementById('botao').style.visibility = 'hidden'
     }
 }
